@@ -18,4 +18,9 @@ public class Circle: Figure
     {
         return Radius * 6.28;
     }
+
+    public new string ToString()
+    {
+        return "{circle}";
+    }
 }
